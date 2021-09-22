@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/part-of: ingress-nginx
 spec:
   type: LoadBalancer
-  loadBalancerIP: 192.168.0.190
+  loadBalancerIP: [IPアドレス]　l2.yamlのaddress-pools.addressesに記載したプール内のアドレスを記載
   externalTrafficPolicy: Local
   ports:
     - name: http
